@@ -1,26 +1,31 @@
 .pokemon {
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  flex-basis: 30%;
-  cursor: pointer;
-  transition: transform 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  margin: 10px;
-
-  }
-
-  .pokemon:hover {
-    transform: scale(1.05);
-    border: 2px solid yellow;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  }
-  
-
-.card-image{
- max-width: 80%;
- height: 80%;
+  justify-content: center;
+  flex-basis: 20%;
+  height: 300px;
+  width: 300px;
+  background-color: rgb(234, 255, 158);
+  border: 2px solid yellow;
+  transition: transform 0.3s ease; /* Add a transition effect for smooth scaling */
 }
 
- 
- 
+.card-image {
+  height: 200px;
+  max-height: 80%;
+}
+
+.pokemon h1 {
+  font-size: 40px;
+}
+
+.pokemon-link {
+  text-decoration: none;
+}
+
+.pokemon:hover {
+  transform: scale(1.1); /* Increase the size of the pokemon card on hover */
+  background-color: rgb(238, 255, 0);
+}

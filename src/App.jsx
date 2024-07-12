@@ -1,13 +1,14 @@
-import React from 'react'
-import "./App.css"
-import Pokedex from './components/Pokedex/Pokedex'
+import React from 'react';
+import './App.css';
+import CustomRoutes from './routes/CustomRoutes';
 
 const App = () => {
   return (
-    <div>
-      <Pokedex/>
+    <div className="app-container">
+      <div className="background-animation"></div>
+      <CustomRoutes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

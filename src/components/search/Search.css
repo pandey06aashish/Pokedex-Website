@@ -21,7 +21,7 @@
     font-size: 25px;
 }
 #pokemon-name-search:hover{
-    border-color: #007BFF; /* Change this to your desired color */
+    border-color: #e7e306; /* Change this to your desired color */
     border-width: 2px; /* Optional: to make the border thicker on focus */
     border-style: solid;
 

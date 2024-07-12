@@ -1,14 +1,38 @@
-*{
-  margin: 0px;
-  padding: 0px;
+@keyframes gradientBackground {
+  0% {
+    background-color: #e6e46e;
+  }
+  25% {
+    background-color: #f39494;
+  }
+  50% {
+    background-color: #fbc2eb;
+  }
+  75% {
+    background-color: #a18cd1;
+  }
+  100% {
+    background-color: #ff9a9e;
+  }
 }
-body {
+
+body, html {
+  height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(135deg, rgb(252, 255, 77), #ffffff);
-  background-size: cover;
-  background-repeat: repeat;
+}
+
+.app-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.background-animation {
+  animation: gradientBackground 15s infinite;
   height: 100%;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }

@@ -4,16 +4,32 @@
    align-items: center;
    margin-top: 2rem;
 }
+.pokemon-list-wrapper h1{
+   color: yellow;
+   text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5)
+}
+
 
 .pokemon-grid{
+   margin-bottom: 20px;
    display:flex;
-   justify-content:  space-around;
+   justify-content:space-around;
    flex-direction: row;
    flex-wrap: wrap;
    
 } 
 
-.control button{
-   padding: 10px;
-   margin-left: 10rem;
+.control button {
+   margin: 10px 20px;
+   padding: 20px;
+   background-color: rgb(234, 255, 158);
+   border: 2px solid yellow;
+   color: rgb(255, 255, 4);
+   text-shadow: 2px 2px 4px black;
+   transition: transform 0.3s ease;
+}
+
+.control button:hover{
+   transform: scale(1.2); /* Increase the size of the pokemon card on hover */
+   background-color: rgb(238, 255, 0);
 }

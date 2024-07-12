@@ -56,7 +56,7 @@ const PokemonList = () => {
       ) : (
         <div className='pokemon-grid'>
           {pokemonList.map((p) => (
-            <Pokemon key={p.id} name={p.name} image={p.image} types={p.types} />
+            <Pokemon key={p.id} name={p.name} image={p.image} types={p.types}  id={p.id}/>
           ))}
         </div>
       )}
