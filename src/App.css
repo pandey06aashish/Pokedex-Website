@@ -1,0 +1,14 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, rgb(252, 255, 77), #ffffff);
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+}

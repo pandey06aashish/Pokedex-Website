@@ -1,0 +1,41 @@
+.search{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 20px;
+    gap: 10px;
+}
+#pokemon-name-search{
+    width:600px ;
+    height: 40px;
+    padding:6px ;
+    font-size: 25px;
+    color: yellow;
+
+    cursor: pointer;
+     border: 2px solid yellow;
+     border-radius: 10px;
+}
+#pokemon-name-search::placeholder {
+    color:yellow; /* Change this to your desired color */
+    font-size: 25px;
+}
+#pokemon-name-search:hover{
+    border-color: #007BFF; /* Change this to your desired color */
+    border-width: 2px; /* Optional: to make the border thicker on focus */
+    border-style: solid;
+
+}
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+   
+}
+
+.search-button img {
+    width: 40px;
+    height: 40px;
+  
+}
